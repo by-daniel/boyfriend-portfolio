@@ -1,0 +1,285 @@
+html {
+    background-color: #1b1a20;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1b1a20;
+    padding: 16px 120px;
+    margin: 0px;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+p, li {
+    font-family: "Overpass", sans-serif;
+    color: #dcd0ff;
+    font-size: 16px;
+    font-weight: 200;
+    margin: 0;
+}
+
+li {
+    padding-bottom: 8px;
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
+
+a {
+    color: #dcd0ff;
+    text-decoration: none;
+}
+
+
+.container h1 {
+    font-family: "DM Serif Display", serif;
+    font-size: 48px;
+    text-align: center;
+    width: fit-content;
+    border-radius: 4px;
+    padding: 2px 10px;
+}
+
+.icon {
+    display: flex;
+}
+
+.logo {
+    display: border-box;
+    margin: auto;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+}
+
+.name p {
+    color: #dcd0ff;
+    font-family: "DM Serif Display", serif;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.navigation {
+    box-sizing: border-box;
+    font-family: "Overpass", sans-serif;
+    font-size: 16px;
+    font-weight: 220;
+}
+
+.landing {
+    display: flex;
+    justify-content: center;
+    padding: 50px 180px;
+    background-color: #1b1a20;
+    gap: 160px;
+    height: 1100px;
+    background-image: url("images/daniel-and-danielle-02.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 1000px;
+}
+
+.info h1 {
+    color: #e8e2fd;
+    font-size: 68px;
+}
+
+.info p {
+    color: #e8e2fd;
+    font-size: 20px;
+}
+
+.title {
+    justify-self: flex-start;
+}
+
+.blurb {
+    justify-self: flex-end;
+    padding: 10px;
+}
+
+.container {
+    display: border-box;
+    padding: 30px 0px;
+    background-color: #1b1a20;
+}
+
+.about h1,
+.education h1,
+.references h1 {
+    color: #dcd0ff;
+    background-color: #524f5f;
+}
+
+.experience h1,
+.skills h1 {
+    color: #524f5f;
+    background-color: #dcd0ff;
+}
+
+.experience p,
+.experience li,
+.skills p,
+.skills li {
+    color: white;
+}
+
+.about,
+.experience,
+.education,
+.skills,
+.references {
+    display: flex;
+    flex-flow: column;
+    padding: 120px 380px;
+}
+
+.bio {
+    display: flex;
+    flex-flow: row;
+    gap: 30px;
+}
+
+.bio-right,
+.bio-left {
+    display: flex;
+    flex-flow: column;
+}
+
+.bio-left p {
+    text-align: right;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 24px;
+}
+
+.emphasis {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.hello {
+    padding-left: 22px;
+    font-family: "DM Serif Display", serif;
+}
+
+.chinese {
+    margin-top: -20px;
+    padding-left: 140px;
+}
+.bold {
+    font-weight: bold;
+}
+
+.resume {
+    display: flex;
+    flex-direction: column;
+}
+
+.entry {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.time {
+    min-width: 300px;
+}
+
+.details {
+    border: 1px white;
+    border-left-style: dashed;
+    padding-left: 30px;
+}
+
+.corner-square {
+    width: 14px;
+    height: 14px;
+    margin-left: -36px;
+    border-radius: 2px;
+    background: #dcd0ff;
+    position: absolute;
+}
+
+.bookshelf {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+}
+
+.cover img {
+    height: 210.84px;
+    width: 140px;
+}
+
+.skills {
+    flex-wrap: wrap;
+}
+
+.skills ul {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills li {
+    display: inline-block;
+    flex-direction: row;
+    list-style: none;
+    margin: 32px;
+    padding: 8px 20px;
+    font-weight: bold;
+    background-color: #e8e2fd;
+    color: black;
+    box-shadow: 5px 5px #959dc8;
+    font-family: "DM Serif Display", serif;
+}
+
+.skills li:hover {
+    background-color: #eb9c7c;
+    color: white;
+    cursor: pointer;
+}
+
+.quote,
+.author {
+    font-size: 24px;
+}
+
+.author {
+    align-self: flex-end;
+}
+
+.experience,
+.skills {
+    background-color: #524f5f;
+}
